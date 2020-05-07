@@ -1,0 +1,53 @@
+:root {
+--primary-text-color: #757575;
+--title-text-color: #212121;
+--primary-background-color: #FFFFFF;
+--sekendary-background-color: #F5F4FA;
+--accent-color: #2196F3;
+}
+/* Стили  index.html */
+body {
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+}
+.logo {
+    color: #2196F3;
+    font-family: Raleway;
+    font-style: bold;
+    font-size: 26px 
+}
+.logo-studio {
+    color: black;
+}
+.nav-links a {
+    font-family: Roboto;
+    font-style: medium;
+    font-size: 14px;
+    color: #212121;
+}
+.nav-links a:hover,
+.nav-links a:focus {
+    color: var(--accent-color);
+}
+.nav-mail {
+    font-family: Roboto;
+    font-style: medium;
+    font-size: 14px;
+    color: #757575;
+}
+.nav-mail:focus,
+.nav-mail:hover {
+    color: var(--accent-color);
+}
+.nav-tel {
+    font-family: Roboto;
+    font-style: medium;
+    font-size: 14px;
+    color: #757575;
+}
+.nav-tel:hover, 
+.nav-tel:focus {
+    color: var(--accent-color);
+}
+
+
